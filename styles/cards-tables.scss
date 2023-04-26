@@ -53,9 +53,14 @@
   &__options {
     width: 380px;
     height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
   }
 
   &__options-arrow {
+    margin-right: 22px;
   }
 
   &__options-list {

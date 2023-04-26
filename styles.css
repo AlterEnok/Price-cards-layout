@@ -47,6 +47,13 @@
 .price-card__options {
   width: 380px;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+}
+.price-card__options-arrow {
+  margin-right: 22px;
 }
 .price-card__options-list {
   list-style-type: none;
