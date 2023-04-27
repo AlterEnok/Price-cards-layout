@@ -7,6 +7,30 @@
   display: flex;
   justify-content: space-between;
 
+  &-blue {
+    width: 380px;
+    height: 770px;
+    background: #334247;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+    display: flex;
+  }
+
+  &__decoration {
+    margin: 0;
+    display: flex;
+    position: absolute;
+  }
+
+  &__image-caption {
+    position: absolute;
+    transform: rotate(45deg);
+    top: 36px;
+    margin-right: 7px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
   &__container {
     margin: auto;
     margin-right: 18px;
@@ -38,7 +62,13 @@
     display: flex;
     justify-content: center;
   }
-
+  &__price-blue {
+    background: #3a6ba5;
+    width: 380px;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+  }
   &__price-sum {
     font-weight: 700;
     font-size: 55px;
@@ -91,5 +121,8 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+  }
+  &__order-btn-blue {
+    background: #3a6ba5;
   }
 }

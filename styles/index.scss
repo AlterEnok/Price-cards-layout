@@ -1,6 +1,5 @@
 @import 'variables.scss';
 @import 'cards-tables.scss';
-@import 'header.scss';
 
 * {
   box-sizing: border-box;
@@ -15,6 +14,6 @@ html {
 
 body {
   align-items: center;
-  margin: 0 auto;
   height: 100vh;
+  display: flex;
 }
