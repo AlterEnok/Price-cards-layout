@@ -1,10 +1,16 @@
 .price-card {
   width: 380px;
   height: 770px;
-  margin: 115px auto;
-  margin-left: 132px;
+  margin: 115px 132px;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  display: flex;
+  justify-content: space-between;
+
+  &__container {
+    margin: auto;
+    margin-right: 18px;
+  }
 
   &__header {
     display: flex;
