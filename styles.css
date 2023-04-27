@@ -15,13 +15,18 @@
   display: flex;
 }
 .price-card__decoration {
+  width: 25px;
+  height: 147px;
+  background: #dc3f45;
+  transform: rotate(-45deg);
+  position: absolute;
+  border-radius: 3px;
   margin: 0;
   display: flex;
-  position: absolute;
 }
 .price-card__image-caption {
   position: absolute;
-  transform: rotate(45deg);
+  transform: rotate(85deg);
   top: 36px;
   margin-right: 7px;
   font-weight: 700;
