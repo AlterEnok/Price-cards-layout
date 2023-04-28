@@ -1,4 +1,5 @@
-.price-card {
+.table {
+  margin: auto;
   width: 380px;
   height: 770px;
   background: #334247;
@@ -6,14 +7,14 @@
   display: flex;
   justify-content: space-between;
 }
-.price-card-blue {
+.table-blue {
   width: 380px;
   height: 770px;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   display: flex;
 }
-.price-card__decoration {
+.table__decoration {
   width: 25px;
   height: 147px;
   background: #dc3f45;
@@ -23,7 +24,7 @@
   margin: 0;
   display: flex;
 }
-.price-card__image-caption {
+.table__image-caption {
   position: absolute;
   transform: rotate(85deg);
   top: 36px;
@@ -32,48 +33,48 @@
   font-size: 14px;
   line-height: 17px;
 }
-.price-card__container {
+.table__container {
   margin: auto;
   margin-right: 18px;
 }
-.price-card__header {
+.table__header {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 33px;
 }
-.price-card__title {
+.table__title {
   font-size: 35px;
   line-height: 43px;
   font-weight: 700;
   display: contents;
 }
-.price-card__subtitle {
+.table__subtitle {
   font-size: 20px;
   line-height: 24px;
 }
-.price-card__price {
+.table__price {
   width: 380px;
   height: 105px;
   background: #5bb189;
   display: flex;
   justify-content: center;
 }
-.price-card__price-blue {
+.table__price-blue {
   background: #3a6ba5;
   width: 380px;
   height: 105px;
   display: flex;
   justify-content: center;
 }
-.price-card__price-sum {
+.table__price-sum {
   font-weight: 700;
   font-size: 55px;
   line-height: 67px;
   color: #fff;
   margin: 19px 110px;
 }
-.price-card__description {
+.table__description {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
@@ -83,7 +84,7 @@
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.price-card__options {
+.table__options {
   width: 380px;
   height: 300px;
   display: flex;
@@ -92,13 +93,13 @@
   padding: 16px;
   margin-bottom: 39px;
 }
-.price-card__options-arrow {
+.table__options-arrow {
   margin-right: 22px;
 }
-.price-card__options-list {
+.table__options-list {
   list-style-type: none;
 }
-.price-card__order-btn {
+.table__order-btn {
   width: 154px;
   height: 40px;
   background-color: #5bb189;
@@ -114,7 +115,7 @@
   justify-content: center;
   margin: 0 auto;
 }
-.price-card__order-btn-blue {
+.table__order-btn-blue {
   background: #3a6ba5;
 }
 
@@ -133,10 +134,6 @@ body {
   align-items: center;
   height: 100vh;
   display: flex;
-}
-
-.table {
-  margin: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
