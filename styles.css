@@ -6,7 +6,7 @@
   justify-content: space-between;
   position: relative;
   overflow: hidden;
-  margin-top: 115px;
+  margin-top: 60px;
   margin-bottom: 115px;
 }
 .price-card-blue {
@@ -57,17 +57,9 @@
 }
 .price-card__price-blue {
   background: #3a6ba5;
-  width: 380px;
-  height: 105px;
-  display: flex;
-  justify-content: center;
 }
 .price-card__price-orange {
   background: #ec632a;
-  width: 380px;
-  height: 105px;
-  display: flex;
-  justify-content: center;
 }
 .price-card__price-sum {
   font-weight: 700;

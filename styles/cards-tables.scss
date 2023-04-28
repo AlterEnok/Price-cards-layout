@@ -7,7 +7,7 @@
   position: relative;
   overflow: hidden;
 
-  margin-top: 115px;
+  margin-top: 60px;
   margin-bottom: 115px;
 
   &-blue {
@@ -64,17 +64,9 @@
   }
   &__price-blue {
     background: $color-price-blue;
-    width: 380px;
-    height: 105px;
-    display: flex;
-    justify-content: center;
   }
   &__price-orange {
     background: $color-price-orange;
-    width: 380px;
-    height: 105px;
-    display: flex;
-    justify-content: center;
   }
   &__price-sum {
     font-weight: 700;
