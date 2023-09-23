@@ -1,0 +1,132 @@
+.price-card {
+  width: 380px;
+  background: #334247;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+
+  margin-top: 65px;
+  margin-bottom: 115px;
+
+  &-blue {
+    width: 380px;
+    height: 770px;
+    background: #334247;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+    display: flex;
+  }
+
+  &__decoration {
+    width: 147px;
+    line-height: 25px;
+    background: $color-decoration;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 30px;
+    right: -30px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  &__container {
+    margin: auto;
+    margin-right: 18px;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 33px;
+  }
+
+  &__title {
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 700;
+    display: contents;
+  }
+
+  &__subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  &__price {
+    width: 380px;
+    height: 105px;
+    background: $color-price-green;
+    display: flex;
+    justify-content: center;
+  }
+  &__price-blue {
+    background: $color-price-blue;
+  }
+  &__price-orange {
+    background: $color-price-orange;
+  }
+  &__price-sum {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    color: $text-color;
+    margin: 19px 110px;
+  }
+
+  &__description {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: $text-color;
+    margin: 26px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  &__options {
+    width: 380px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 39px;
+  }
+
+  &__options-arrow {
+    margin-right: 22px;
+  }
+
+  &__options-list {
+    list-style-type: none;
+  }
+
+  &__order-btn {
+    width: 154px;
+    height: 40px;
+    background-color: $color-button-green;
+    border-radius: $border-radius-button;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: $text-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  &__order-btn-blue {
+    background: $color-button-blue;
+  }
+
+  &__order-btn-orange {
+    background: $color-button-orange;
+  }
+}

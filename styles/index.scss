@@ -1,0 +1,25 @@
+@import 'variables.scss';
+@import 'cards-tables.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background-color: #141b1c;
+  color: $text-color;
+}
+
+body {
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.table {
+  margin: auto;
+  display: flex;
+  gap: 18px;
+}
